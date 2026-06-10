@@ -59,6 +59,6 @@ SubManager는 이러한 문제를 해결하기 위해 개발된 구독 서비스
 
 ---
 ### 화면
-<img width="800" height="996" alt="image" src="https://github.com/user-attachments/assets/919f1250-b235-4da8-946c-f711f36fd12c" />
-<img width="803" height="997" alt="image" src="https://github.com/user-attachments/assets/a9557cc9-8432-458e-ad26-7333955c77c0" />
-<img width="801" height="987" alt="image" src="https://github.com/user-attachments/assets/a4f1d085-67fd-45c5-9de4-5402abe946c9" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/919f1250-b235-4da8-946c-f711f36fd12c" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/a9557cc9-8432-458e-ad26-7333955c77c0" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/a4f1d085-67fd-45c5-9de4-5402abe946c9" />
