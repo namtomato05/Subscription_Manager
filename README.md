@@ -62,3 +62,42 @@ SubManager는 이러한 문제를 해결하기 위해 개발된 구독 서비스
 <img width="330" alt="image" src="https://github.com/user-attachments/assets/919f1250-b235-4da8-946c-f711f36fd12c" />
 <img width="330" alt="image" src="https://github.com/user-attachments/assets/a9557cc9-8432-458e-ad26-7333955c77c0" />
 <img width="330" alt="image" src="https://github.com/user-attachments/assets/a4f1d085-67fd-45c5-9de4-5402abe946c9" />
+
+---
+
+## 웹 버전 (HTML/CSS/JavaScript)
+
+MFC 버전 구현 후, 더 나은 사용자 경험을 위해 웹 버전을 추가로 구현하였다.
+
+MFC는 Windows 전용 프레임워크로 디자인 커스터마이징에 한계가 있다.
+이를 보완하기 위해 동일한 객체지향 설계를 HTML/CSS/JavaScript로 재구현하였다.
+
+---
+
+### 설계 일관성
+
+MFC 버전과 동일한 클래스 구조를 JavaScript로 구현하였다.
+
+- Expense
+: 구독 서비스 데이터 (서비스명, 결제일, 월 금액, 인원수)
+
+- SubManager
+: 전체 구독 목록 관리 (등록, 삭제, 통계 계산)
+
+- App 클래스
+: UI 렌더링 및 이벤트 처리
+  
+---
+
+### MFC 버전과 비교
+
+| 항목 | MFC 버전 | 웹 버전 |
+|---|---|---|
+| 언어 | C++ | HTML/CSS/JavaScript |
+| 실행 환경 | Windows | 모든 브라우저 |
+| 디자인 | 기본 UI | 앱 스타일 |
+| 데이터 저장 | CSV 파일 | 브라우저 메모리 |
+
+---
+
+[Web 실행하기](https://namtomato05.github.io/Subscription_Manager/Web/SubManager.html)
